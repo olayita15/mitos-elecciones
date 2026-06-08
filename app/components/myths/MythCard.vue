@@ -14,14 +14,13 @@
           <component :is="verdictIcon" class="size-3.5" />
           {{ verdictLabel }}
         </span>
-        <ArrowUpRight class="size-4 text-base-content/35" />
       </div>
     </NuxtLink>
   </article>
 </template>
 
 <script setup lang="ts">
-import { ArrowUpRight, BadgeAlert, BadgeCheck, BadgeMinus } from '@lucide/vue'
+import { BadgeAlert, BadgeCheck, BadgeMinus } from '@lucide/vue'
 import { computed } from 'vue'
 import type { Myth } from '~~/shared/types/content'
 import { buildMythPath } from '~~/shared/utils/routes'

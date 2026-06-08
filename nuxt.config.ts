@@ -38,6 +38,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-06-07',
   devtools: { enabled: false },
   srcDir: 'app/',
+  buildDir: '.nuxt',
   css: ['~/assets/styles/main.css'],
   vite: {
     plugins: [tailwindcss() as any]

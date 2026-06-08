@@ -13,19 +13,6 @@
       />
     </div>
 
-    <div class="flex items-center justify-between gap-3 px-1">
-      <p class="text-[0.72rem] font-black uppercase tracking-[0.22em] text-base-content/55">
-        {{ items.length }} verificaciones
-      </p>
-      <p
-        v-if="activeCandidate"
-        class="hidden text-xs text-base-content/50 sm:flex sm:items-center sm:gap-2"
-      >
-        <kbd class="kbd kbd-xs">Esc</kbd>
-        <span>limpia el filtro actual</span>
-      </p>
-    </div>
-
     <MythGrid
       :items="items"
       :candidates="candidates"
