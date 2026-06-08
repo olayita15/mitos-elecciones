@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Mitos Candidaturas</title>
+  <desc id="desc">Consulta rápida de verificaciones sobre candidatos presidenciales.</desc>
+  <rect width="1200" height="630" fill="#f7f5f1" />
+  <rect x="56" y="56" width="1088" height="518" rx="28" fill="#ffffff" stroke="#ddd3c5" />
+  <text x="96" y="220" fill="#171412" font-family="Arial, sans-serif" font-size="84" font-weight="700">
+    Mitos Candidaturas
+  </text>
+  <text x="96" y="310" fill="#625a52" font-family="Arial, sans-serif" font-size="34">
+    Verificaciones presidenciales de Colombia
+  </text>
+  <text x="96" y="418" fill="#0b6b45" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    VERDADERO
+  </text>
+  <text x="300" y="418" fill="#9f2d23" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    FALSO
+  </text>
+  <text x="452" y="418" fill="#9a6500" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    PARCIAL
+  </text>
+</svg>

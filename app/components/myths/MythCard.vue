@@ -5,10 +5,10 @@
       :to="buildMythPath(myth.candidate, myth.category, myth.slug)"
       :aria-label="`${myth.title}. Estado ${verdictLabel}.`"
     >
-      <span :class="['verdict-badge', `verdict-badge--${myth.verdict}`]">
+      <h2 class="myth-card__title">{{ myth.title }}</h2>
+      <span :class="['verdict-badge', 'myth-card__verdict', `verdict-badge--${myth.verdict}`]">
         {{ verdictLabel }}
       </span>
-      <h2 class="myth-card__title">{{ myth.title }}</h2>
     </NuxtLink>
   </article>
 </template>

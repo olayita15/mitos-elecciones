@@ -229,6 +229,7 @@ ol {
   border-radius: var(--radius-lg);
   background: var(--color-surface);
   box-shadow: var(--shadow-soft);
+  min-height: 11rem;
 }
 
 .myth-detail__meta {
@@ -241,9 +242,17 @@ ol {
 }
 
 .myth-card__title {
-  font-size: 1.05rem;
-  line-height: 1.25;
+  font-size: clamp(1.2rem, 3.5vw, 1.55rem);
+  font-weight: 800;
+  line-height: 1.12;
   letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.myth-card__verdict {
+  align-self: end;
+  justify-self: start;
+  margin-top: var(--space-2);
 }
 
 .myth-detail__summary,
@@ -255,12 +264,12 @@ ol {
 .verdict-badge {
   display: inline-flex;
   align-items: center;
-  min-height: 1.9rem;
-  padding: 0.25rem 0.65rem;
+  min-height: 2.1rem;
+  padding: 0.35rem 0.8rem;
   border-radius: var(--radius-sm);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 }
 
 .verdict-badge--verdadero {

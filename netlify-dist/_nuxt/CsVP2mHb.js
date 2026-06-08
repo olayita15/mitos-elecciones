@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as n,a as o,T as a}from"./DTnO4wHF.js";const c={},r={class:"shell"},_={id:"main-content",class:"shell__content container"};function l(e,d){return t(),n("div",r,[o("main",_,[a(e.$slots,"default")])])}const f=s(c,[["render",l]]);export{f as default};
