@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "build:netlify": "npm run generate && mkdir -p netlify-dist && cp -r .output/public/. netlify-dist/",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "typecheck": "nuxt typecheck",

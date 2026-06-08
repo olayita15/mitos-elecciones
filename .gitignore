@@ -4,4 +4,3 @@ node_modules
 .data
 .DS_Store
 dist
-netlify-dist
