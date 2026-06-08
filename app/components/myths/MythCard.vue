@@ -27,8 +27,6 @@ import { buildMythPath } from '~~/shared/utils/routes'
 
 const props = defineProps<{
   myth: Myth
-  candidateName: string
-  categoryName: string
 }>()
 
 const verdictLabel = computed(() => props.myth.verdict.toUpperCase())

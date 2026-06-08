@@ -439,5 +439,71 @@ export const myths: Myth[] = [
         publisher: 'Infobae'
       }
     ]
-  }
+  },
+  {
+  id: 'abelardo-pastor-abusos',
+  slug: 'abelardo-defendio-a-un-pastor-acusado-de-abusos-sexuales',
+  candidate: 'abelardo',
+  category: 'trayectoria',
+  verdict: 'verdadero',
+  title: '¿Abelardo defendió a un pastor acusado de abusos sexuales contra sus feligresas?',
+  summary: 'Sí. Abelardo de la Espriella fue abogado defensor del pastor Álvaro Gámez, procesado por presuntos abusos sexuales contra varias integrantes de su congregación.',
+  explanation:
+    'En 2012, Abelardo de la Espriella asumió la defensa de Álvaro Gámez, pastor de la Iglesia Salem de Pasto. La Fiscalía lo investigó por presuntos delitos sexuales contra varias feligresas y menores de edad. Durante el proceso, De la Espriella sostuvo públicamente que las relaciones habían sido consentidas y cuestionó la actuación de la Fiscalía. En 2015, Gámez fue absuelto por un juzgado, por lo que no puede afirmarse que hubiera sido condenado. El hecho verificable es que Abelardo sí ejerció su defensa jurídica.',
+  evidences: [
+    'Caracol Radio registró declaraciones de Abelardo de la Espriella como abogado defensor de Álvaro Gámez.',
+    'El Espectador informó sobre denuncias contra los abogados defensores del pastor, entre ellos De la Espriella.',
+    'En 2015, diversos medios reportaron que Gámez fue absuelto de los cargos por los que era investigado.',
+  ],
+  sources: [
+    {
+      title: 'Defensa del pastor nariñense implicado en abuso sexual dijo que el proceso está herido de muerte',
+      url: 'https://caracol.com.co/radio/2012/07/09/judicial/1341822180_718992.html',
+      publisher: 'Caracol Radio'
+    },
+    {
+      title: 'Denuncian penal y disciplinariamente a abogados de pastor procesado por abuso sexual',
+      url: 'https://www.elespectador.com/judicial/denuncian-penal-y-disciplinariamente-a-abogados-de-pastor-procesado-por-abuso-sexual-article-393729/',
+      publisher: 'El Espectador'
+    },
+    {
+      title: 'Fue absuelto el pastor Álvaro Gámez de abuso sexual',
+      url: 'https://risaraldahoy.com/fue-absuelto-el-pastor-alvaro-gamez-de-abuso-sexual/',
+      publisher: 'Risaralda Hoy'
+    }
+  ]
+},
+{
+  id: 'abelardo-nule',
+  slug: 'abelardo-fue-abogado-de-los-nule',
+  candidate: 'abelardo',
+  category: 'trayectoria',
+  verdict: 'verdadero',
+  title: '¿Abelardo fue abogado de los Nule en el carrusel de la contratación?',
+  summary: 'Sí. Abelardo de la Espriella ejerció la defensa de integrantes del Grupo Nule, protagonistas de uno de los mayores escándalos de corrupción en Bogotá.',
+  explanation:
+    'Abelardo de la Espriella representó jurídicamente a Manuel, Miguel y Guido Nule durante los procesos derivados del carrusel de la contratación. El caso involucró irregularidades en contratos públicos de infraestructura de Bogotá, especialmente en obras de TransMilenio y la malla vial. Los Nule posteriormente aceptaron cargos y fueron condenados por delitos relacionados con corrupción. Que Abelardo los haya defendido no implica que participara en los hechos investigados; el hecho verificable es que sí actuó como su abogado.',
+  evidences: [
+    'Diversos medios registraron a Abelardo de la Espriella como abogado defensor de los hermanos Nule.',
+    'Los Nule fueron procesados por el carrusel de la contratación de Bogotá.',
+    'Los empresarios aceptaron cargos y posteriormente fueron condenados por delitos asociados al caso.'
+  ],
+  sources: [
+    {
+      title: 'Abelardo De La Espriella — Perfil patrimonial',
+      url: 'https://casamacondo.co/monopolitica-espriella-perfil/',
+      publisher: 'CasaMacondo'
+    },
+    {
+      title: 'Los Nule aceptan cargos por carrusel de la contratación',
+      url: 'https://www.elcolombiano.com/historico/los_nule_aceptan_cargos_por_carrusel_de_la_contratacion-OGEC_308677',
+      publisher: 'El Colombiano'
+    },
+    {
+      title: 'Condenan a Los Nule a ocho años de cárcel por Carrusel de Contratación',
+      url: 'https://www.elpais.com.co/colombia/condenan-a-los-nule-a-ocho-anos-de-carcel-por-carrusel-de-contratacion.html',
+      publisher: 'El País'
+    }
+  ]
+}
 ]
