@@ -1,5 +1,5 @@
 <template>
-  <div class="stack">
+  <div class="explore-layout">
     <div class="filters-panel">
       <CandidateTabs
         :candidates="candidates"

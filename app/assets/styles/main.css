@@ -91,12 +91,12 @@ body {
   padding: 1rem 0 4rem;
 }
 
-.stack {
+.explore-layout {
   display: grid;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
-.stack--detail {
+.myth-detail-layout {
   gap: 1.25rem;
 }
 
@@ -105,8 +105,8 @@ body {
   top: 0;
   z-index: 30;
   display: grid;
-  gap: 0.75rem;
-  padding: 0 0 0.75rem;
+  gap: 0.5rem;
+  padding: 0 0 0.35rem;
   backdrop-filter: blur(14px);
   background: linear-gradient(to bottom, rgba(252, 251, 247, 0.96), rgba(252, 251, 247, 0.76));
 }
@@ -120,15 +120,15 @@ body {
 .candidate-tabs__item {
   position: relative;
   display: grid;
-  grid-template-rows: 5.75rem auto;
-  gap: 0.9rem;
-  min-height: 10rem;
+  grid-template-rows: 4.75rem auto;
+  gap: 0.55rem;
+  min-height: 7.5rem;
   overflow: hidden;
-  border-radius: 1.5rem;
+  border-radius: 1.15rem;
   border: 1px solid rgba(33, 31, 30, 0.08);
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 14px 40px rgba(29, 27, 25, 0.08);
-  padding: 0.8rem;
+  padding: 0.65rem;
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -151,11 +151,11 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  border-radius: 1rem;
+  border-radius: 0.85rem;
 }
 
 .candidate-tabs__label {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 800;
   line-height: 1.05;
   letter-spacing: -0.03em;
@@ -169,19 +169,19 @@ body {
 
 .myth-grid {
   display: grid;
-  gap: 0.9rem;
+  gap: 0.7rem;
 }
 
 .myth-card__link {
   display: grid;
-  min-height: 12rem;
-  gap: 1rem;
-  border-radius: 1.6rem;
+  min-height: 8.5rem;
+  gap: 0.75rem;
+  border-radius: 1.15rem;
   border: 1px solid rgba(28, 26, 24, 0.08);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(250, 246, 239, 0.94));
   box-shadow: 0 16px 42px rgba(29, 27, 25, 0.07);
-  padding: 1.1rem;
+  padding: 0.9rem;
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -202,9 +202,9 @@ body {
 }
 
 .myth-card__title {
-  font-size: clamp(1.25rem, 3.2vw, 1.7rem);
+  font-size: clamp(1rem, 2vw, 1.3rem);
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 1.15;
   letter-spacing: -0.04em;
   text-wrap: balance;
 }
@@ -292,14 +292,14 @@ body {
 
 .empty-state {
   display: grid;
-  gap: 1rem;
-  padding: 1.4rem;
+  gap: 0.75rem;
+  padding: 1.1rem;
 }
 
 .myth-detail {
   display: grid;
-  gap: 1.3rem;
-  padding: 1.4rem;
+  gap: 1rem;
+  padding: 1.1rem;
 }
 
 .myth-detail__header,
@@ -353,13 +353,13 @@ body {
 
 @media (min-width: 768px) {
   .shell__content {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
 
   .candidate-tabs__item {
-    grid-template-rows: 9rem auto;
-    min-height: 13rem;
-    padding: 1rem;
+    grid-template-rows: 7rem auto;
+    min-height: 10rem;
+    padding: 0.8rem;
   }
 
   .myth-grid {
@@ -367,28 +367,28 @@ body {
   }
 
   .myth-card__link {
-    min-height: 13rem;
-    padding: 1.25rem;
+    min-height: 10rem;
+    padding: 1rem;
   }
 
   .myth-detail {
-    padding: 1.8rem;
+    padding: 1.4rem;
   }
 
   .empty-state {
-    padding: 1.8rem;
+    padding: 1.4rem;
   }
 }
 
 @media (min-width: 1100px) {
   .candidate-tabs__grid {
-    gap: 1rem;
+    gap: 0.85rem;
   }
 
   .candidate-tabs__item {
-    grid-template-rows: 12rem auto;
-    min-height: 16rem;
-    padding: 1.2rem;
+    grid-template-rows: 9rem auto;
+    min-height: 12rem;
+    padding: 0.9rem;
   }
 
   .myth-grid {
