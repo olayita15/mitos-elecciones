@@ -1,3 +1,4 @@
+import tailwindcss from '@tailwindcss/vite'
 import { siteConfig } from './shared/config/site'
 
 const prerenderRoutes = [
@@ -38,6 +39,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   srcDir: 'app/',
   css: ['~/assets/styles/main.css'],
+  vite: {
+    plugins: [tailwindcss() as any]
+  },
   app: {
     head: {
       htmlAttrs: {

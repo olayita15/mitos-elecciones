@@ -5,10 +5,11 @@
         v-for="category in categories"
         :key="category.slug"
         :to="category.slug === activeCategory ? buildCandidatePath(candidateSlug) : buildCategoryPath(candidateSlug, category.slug)"
-        class="category-chip"
-        :class="{ 'is-active': category.slug === activeCategory }"
+        class="badge h-11 rounded-full border border-base-300/70 bg-white/80 px-4 text-sm font-semibold text-base-content/68 shadow-sm transition hover:border-primary/20 hover:bg-white"
+        :class="category.slug === activeCategory ? 'badge-primary text-primary-content border-transparent' : ''"
         :aria-current="category.slug === activeCategory ? 'page' : undefined"
       >
+        <span class="mr-1 opacity-60">#</span>
         {{ category.name }}
       </NuxtLink>
     </div>

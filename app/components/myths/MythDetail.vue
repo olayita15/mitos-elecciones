@@ -3,10 +3,17 @@
     <header class="myth-detail__header">
       <div class="myth-detail__meta">
         <span :class="['verdict-badge', `verdict-badge--${myth.verdict}`]">
+          <component :is="verdictIcon" class="size-3.5" />
           {{ myth.verdict.toUpperCase() }}
         </span>
-        <span>{{ categoryName }}</span>
-        <span>{{ candidateName }}</span>
+        <span class="badge badge-ghost rounded-full border-base-300/70 px-3 py-3 text-xs font-semibold">
+          <Tag class="size-3.5" />
+          {{ categoryName }}
+        </span>
+        <span class="badge badge-ghost rounded-full border-base-300/70 px-3 py-3 text-xs font-semibold">
+          <UserRound class="size-3.5" />
+          {{ candidateName }}
+        </span>
       </div>
 
       <h1>{{ myth.title }}</h1>
@@ -29,10 +36,11 @@
       <h2 id="sources-title">Fuentes</h2>
       <ul class="detail-list">
         <li v-for="source in myth.sources" :key="source.url">
-          <a :href="source.url" target="_blank" rel="noreferrer">
+          <a :href="source.url" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2">
+            <ExternalLink class="size-4" />
             {{ source.title }}
           </a>
-          <span>{{ source.publisher }}</span>
+          <span class="text-sm">{{ source.publisher }}</span>
         </li>
       </ul>
     </section>
@@ -40,11 +48,25 @@
 </template>
 
 <script setup lang="ts">
+import { BadgeAlert, BadgeCheck, BadgeMinus, ExternalLink, Tag, UserRound } from '@lucide/vue'
+import { computed } from 'vue'
 import type { Myth } from '~~/shared/types/content'
 
-defineProps<{
+const props = defineProps<{
   myth: Myth
   candidateName: string
   categoryName: string
 }>()
+
+const verdictIcon = computed(() => {
+  if (props.myth.verdict === 'verdadero') {
+    return BadgeCheck
+  }
+
+  if (props.myth.verdict === 'parcial') {
+    return BadgeMinus
+  }
+
+  return BadgeAlert
+})
 </script>

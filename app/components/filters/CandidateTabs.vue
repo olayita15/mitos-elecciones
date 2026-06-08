@@ -14,7 +14,17 @@
           :src="candidateImages[candidate.slug]"
           alt=""
         >
-        <span class="candidate-tabs__label">{{ candidate.name }}</span>
+        <div class="candidate-tabs__meta">
+          <span class="candidate-tabs__label">{{ candidate.name }}</span>
+          <span
+            :class="[
+              'badge badge-sm border-0 font-black uppercase tracking-[0.16em]',
+              candidate.slug === activeCandidate ? 'badge-neutral text-white' : 'badge-ghost'
+            ]"
+          >
+            {{ candidate.slug === activeCandidate ? 'Activo' : 'Filtrar' }}
+          </span>
+        </div>
       </NuxtLink>
     </nav>
   </section>
