@@ -343,21 +343,31 @@ export const myths: Myth[] = [
     slug: 'abelardo-propuso-trabajo-por-horas-y-eliminar-primas',
     candidate: 'abelardo',
     category: 'trabajo',
-    verdict: 'falso',
+    verdict: 'parcial',
     title: '¿Abelardo propuso trabajo por horas y eliminar primas?',
-    summary: 'No hay registro verificable de que haya hecho esa propuesta.',
+    summary: 'La afirmación mezcla dos cosas distintas: sí hay antecedentes públicos de su fórmula defendiendo el trabajo por horas, pero no prueba sólida sobre eliminar primas.',
     explanation:
-      'La imagen viral le atribuye a Abelardo de la Espriella una propuesta laboral que no aparece en entrevistas, publicaciones oficiales ni cubrimientos periodísticos confiables. El chequeo disponible concluye que se trata de una desinformación fabricada para asociarlo con una agenda antisindical o antiempleado que no quedó documentada.',
+      'La afirmación no encaja bien como completamente falsa. El chequeo de La Silla Vacía concluyó que no había evidencia suficiente para atribuirle literalmente a Abelardo de la Espriella la propuesta viral de “trabajo por horas y eliminar primas”. Sin embargo, sí existen antecedentes públicos de José Manuel Restrepo, hoy fórmula vicepresidencial de Abelardo, asociado a la discusión sobre contratación o trabajo por horas. Con la evidencia disponible, lo más preciso es clasificarla como parcial: hay sustento para una parte de la narrativa, pero no para afirmar de manera cerrada que Abelardo propuso eliminar primas o que formuló exactamente esa propuesta en esos términos.',
     evidences: [
-      'No existen registros en medios confiables de esa propuesta.',
-      'La pieza viral no aporta contexto, fecha ni soporte verificable.',
-      'El propio historial de verificaciones de campaña la clasifica como falsa.'
+      'La Silla Vacía no encontró soporte suficiente para atribuirle literalmente a Abelardo esa propuesta en esos términos.',
+      'José Manuel Restrepo ha aparecido vinculado públicamente al debate sobre trabajo por horas en Colombia.',
+      'No aparece una prueba equivalente y directa de una propuesta de eliminar primas atribuida a Abelardo en fuentes sólidas.'
     ],
     sources: [
       {
         title: 'De La Espriella no propuso fomentar trabajo por horas ni eliminar primas',
         url: 'https://www.lasillavacia.com/detector-de-mentiras/falso/de-la-espriella-no-propuso-fomentar-trabajo-por-horas-ni-eliminar-primas/',
         publisher: 'La Silla Vacía'
+      },
+      {
+        title: '“Solución a crisis económica es hablar de reinicio de actividades”',
+        url: 'https://caracol.com.co/radio/2020/05/07/economia/1588810566_463806.html',
+        publisher: 'Caracol Radio'
+      },
+      {
+        title: 'Trabajo por horas: reactivación económica sería prioridad en misión laboral, según Fenalco',
+        url: 'https://www.eltiempo.com/economia/sectores/trabajo-por-horas-reactivacion-economica-seria-prioridad-en-mision-laboral-segun-fenalco-505460',
+        publisher: 'El Tiempo'
       }
     ]
   },

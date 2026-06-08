@@ -1,5 +1,5 @@
 <template>
-  <section class="candidate-tabs">
+  <section class="candidate-tabs" :class="{ 'is-compact': compact }">
     <nav class="candidate-tabs__grid" aria-label="Filtrar por candidato">
       <NuxtLink
         v-for="candidate in candidates"

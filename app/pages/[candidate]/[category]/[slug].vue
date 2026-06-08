@@ -53,7 +53,7 @@ const breadcrumbs = [
 </script>
 
 <template>
-  <div class="stack stack--detail">
+  <div class="explore-layout myth-detail-layout">
     <BreadcrumbTrail :items="breadcrumbs" />
     <MythDetail
       :myth="myth"
